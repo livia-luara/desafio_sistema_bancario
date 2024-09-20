@@ -20,3 +20,17 @@ O extrato lista todos os depósitos e saques realizados na conta, e caso ainda n
 
 ## Inválido
 Caso o usuário realize uma operação inválida, ele será alertado para que tente novamente
+
+
+# Desafio DIO: Sistema Bancário - 02
+
+Esse desafio consistia em refatorar o sistema bancário feito previamente, separando as funcionalidades existentes em funções modulares e criando novas funcionalidades. As operações de saque, depósito e extrato deveriam ser implementadas em funções próprias, seguindo padrões específicos para a passagem de argumentos (por posição e por nome). Além disso, foram adicionadas novas funções para cadastrar usuários e contas bancárias, com validação de CPF e vínculo entre usuário e conta e também houve a adição de mensagens de erro e sucesso para melhor interação com o usuário.
+
+
+## Criação de Funções
+Foram criadas as funções depositar, sacar e exibir extrato. 
+
+## Novas Funcionalidades 
+* Criar Usuário: Permite o cadastro de usuários com nome, CPF (único), data de nascimento e endereço.
+* Criar Conta Corrente: Cria contas vinculadas aos usuários previamente cadastrados, gerando um número sequencial para a conta e validando o CPF.
+* Listar Contas: Exibe todas as contas cadastradas, incluindo agência, número da conta e nome do titular.
